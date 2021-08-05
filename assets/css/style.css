@@ -12,6 +12,9 @@
 /* apply styles to <header> */
 header {
     background-color: #39a6b2;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
 
   /* Explicitly list the side it should be applied to*/
@@ -33,7 +36,6 @@ header {
     color: #fce138;
   }
   header nav {
-    float: right; 
     margin: 7px 0;
   }
   header nav ul li {
@@ -195,7 +197,7 @@ header {
 
 .steps img {
   width: 15%;
-  margin 10px 0;
+  margin: 10px 0;
 }
 
 .steps h3 {
